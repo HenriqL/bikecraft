@@ -1,9 +1,42 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-p{
+p.quote-text{
     font-family: 'Libre Caslon Display', serif;
 }
+.sub-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1D1E;
+    margin-bottom: 40px;
+}
+.sub-title::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #1D1D1E;
+    margin: 2px auto;
+
+}
+.btn{
+    width: 268px;
+    height: 50px;
+    border: 3px solid #EEAB3A;
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #EEAB3A;
+    padding: 10px 50px;
+    
+}
+
+
+
 .header{
     position: fixed;
     height: 80px;
@@ -11,6 +44,7 @@ p{
     background: #EEAB3A;
     padding-bottom: 15px;
     padding-top: 15px;
+    z-index: 999;
 
 }
 
@@ -39,13 +73,14 @@ p{
     background-size: cover;
     text-align: center;
 }
-.container h1{
+section .container h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 48px;
     line-height: 60px;
-    margin-top: 60px;
-    color: #FFFFFF;
+    padding-top: 70px;
+    color: #fff;
+    margin-bottom: -30px;
 }
 .container .quote p{
     width: 360px;
@@ -64,8 +99,8 @@ p{
     display: block;
     width: 60px;
     height: 3px;
-    background: #FFFFFF;
-    margin: 12px auto;
+    background:#fff;
+    margin:  12px auto;
 }
 .container .quote p.quote-text::after{
     content:"";
@@ -88,13 +123,83 @@ p{
 }
 section .container a.btn{
     width: 268px;
-    height: 56px;
+    height: 50px;
     border: 3px solid #EEAB3A;
     box-sizing: border-box;
     font-size: 24px;
     line-height: 30px;
     font-weight: 500;
     color: #EEAB3A;
-    padding: 15px 60px;
+    padding: 10px 50px;
     
+}
+.products{
+    padding: 60px 0;
+}
+.product-list li{
+    background: #eeab3a;
+    text-align: center;
+}
+.product-list li h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1D1D1E;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.product-list li h3::after{
+    content:"";
+    display: block;
+    width: 10%;
+    height: 4px;
+    background: #1D1D1E;
+    margin: 2px auto;
+}
+.product-list li p{
+    padding: 10px 20px 20px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-icon{
+    background: #1D1D1E;
+    padding: 20px;
+    
+}
+.call-to-action{
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+}
+.call-to-action p{
+    max-width: 278px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #1D1D1E;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+
+.portfolio{
+    background: #1D1D1E;
+    width: 100%;
+    padding: 60px;
+}
+.portfolio .sub-title{
+    color: #EEAB3A;
+}
+.portfolio .sub-title::after{
+    background: #EEAB3A;
+}
+.portfolio .call-to-action p{
+    color: #EEAB3A;
+}
+.portfolio ul li.grid-16{
+    margin-top: 20px;
+
 }
