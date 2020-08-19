@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Libre Caslon Display', serif;
+}
+.header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: #EEAB3A;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+.navbar{
+    text-align: right;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.navbar ul li a{
+    font-family: 'Poppins', sans-serif;
+    color: #262729;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+
+}
+
+.intro {
+    width: 100%;
+    height: 434px;
+    background: url("../img//bg-01.png");
+    background-size: cover;
+    text-align: center;
+}
+.container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 60px;
+    color: #FFFFFF;
+}
+.container .quote p{
+    width: 360px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+.container .quote p.quote-text::before{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFFFFF;
+    margin: 12px auto;
+}
+.container .quote p.quote-text::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFFFFF;
+    margin: 12px auto;
+}
+.container .quote p.cite{
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    margin-top:-12px;
+    margin-bottom: 40px;
+
+}
+section .container a.btn{
+    width: 268px;
+    height: 56px;
+    border: 3px solid #EEAB3A;
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #EEAB3A;
+    padding: 15px 60px;
+    
+}
