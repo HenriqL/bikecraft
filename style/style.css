@@ -268,3 +268,46 @@ section .container a.btn{
     margin-top: 20px;
 
 }
+.quality{
+    padding: 60px 0;
+}
+.quality::before{
+    content: "";
+    position:absolute;
+    width: 625px;
+    height: 150px;
+    background: url("../img/line.svg") no-repeat;
+    left: 168px;
+    top: 197px;
+    z-index: -99;
+}
+.quality img{
+    margin: 0 auto;
+}
+.quality-list li{
+    text-align: center;
+    padding: 0 40px;
+    padding-top: 40px;
+}
+.quality-list li h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1D1D1E;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.quality-list li h3::after{
+    content:"";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #1D1D1E;
+    margin: 2px auto;
+}
+.quality-list li p{
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+}
