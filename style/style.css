@@ -361,5 +361,41 @@ section .container a.btn{
 }
 .footer-social ul li{
     display: inline-block;
-    padding-right:10px;
+    padding-right:20px;
+}
+
+.copy{
+    width: 100%;
+    background: #EEAB3A;
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+}
+
+.intro-sobre {
+    width: 100%;
+    height: 350px;
+    background: url("../img/bg-02.png") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.container .quote p.quote-text-bg-02{
+    width: 530px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffff;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+
+.container .quote p.quote-text-bg-02::before{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFFFFF;
+    margin: 12px auto;
 }
