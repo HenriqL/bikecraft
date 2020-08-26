@@ -146,7 +146,7 @@ section .container h1{
     line-height: 60px;
     padding-top: 70px;
     color: #fff;
-    margin-bottom: -30px;
+
 }
 .container .quote p{
     width: 360px;
@@ -202,9 +202,15 @@ section .container a.btn{
 .products{
     padding: 60px 0;
 }
+.product-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .product-list li{
     background: #eeab3a;
     text-align: center;
+
 }
 .product-list li h3{
     font-weight: 500;
@@ -379,6 +385,9 @@ section .container a.btn{
     background-size: cover;
     text-align: center;
 }
+.intro-sobre .container h1{
+    margin-bottom: 10px;
+}
 .container .quote p.quote-text-bg-02{
     width: 530px;
     font-weight: normal;
@@ -387,7 +396,7 @@ section .container a.btn{
     color: #ffff;
     margin: 0 auto;
     font-family: 'Playfair Display', serif;
-    margin-top: 48px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -398,4 +407,18 @@ section .container a.btn{
     height: 3px;
     background: #FFFFFF;
     margin: 12px auto;
+}
+.sobre_content p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 20px;
+}
+.sobre_content ul li{
+    font-size: 18px;
+    line-height: 25px;
+
+}
+.sobre_content img{
+    padding-top: 40px;
 }
