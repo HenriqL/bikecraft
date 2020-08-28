@@ -253,7 +253,11 @@ nav ul li a{
     display: flex;
     text-align: center;
 }
-
+.copy p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:var(--primary-color)
+}
 
 
 
