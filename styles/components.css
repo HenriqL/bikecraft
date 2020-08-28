@@ -1,0 +1,379 @@
+:root{
+    --primary-color:#07070D;
+    --second-color:#EEAB3A;
+    --text-color:#fff;
+}
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* HEADER */
+.header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: var(--second-color);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    z-index: 999;
+}
+nav{
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+
+}
+/* HEADER END */
+
+.call-to-action{
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+}
+.call-to-action p{
+    max-width: 278px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+.sub-title::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--primary-color);
+    margin: 2px auto;
+
+}
+
+
+.btn{
+    position: relative;
+    width: 268px;
+    height: 50px;
+    border: 3px solid var(--second-color);
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--second-color);
+    padding: 10px 50px;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    z-index: 2;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+.container:after, .container:before {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-1 	{width: 40px;}
+.grid-2 	{width: 100px;}
+.grid-3 	{width: 160px;}
+.grid-4 	{width: 220px;}
+.grid-5 	{width: 280px;}
+.grid-6 	{width: 340px;}
+.grid-7 	{width: 400px;}
+.grid-8 	{width: 460px;}
+.grid-9 	{width: 520px;}
+.grid-10 	{width: 580px;}
+.grid-11 	{width: 640px;}
+.grid-12 	{width: 700px;}
+.grid-13 	{width: 760px;}
+.grid-14 	{width: 820px;}
+.grid-15 	{width: 880px;}
+.grid-16 	{width: 940px;}
+.grid-1-3	{width: 300px;}
+
+
+/* BROCK QUOTE */
+.container .quote {
+    width: 400px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--text-color);
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+}
+.container .quote-text::before{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background:var(--text-color);
+    margin:  12px auto;
+}
+.container .quote-text::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--text-color);
+    margin: 12px auto;
+}
+.container .quote .cite{
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color:var(--text-color);
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.block{
+    background:url("/img/rodape.svg");
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+.block .quote .quote-text{
+    margin-top: 40px;
+}
+.block .quote {
+    margin-top: 50px;
+    max-width: 695px;
+    margin: 0 auto;
+}
+/* BROCK QUOTE END */
+
+/* FOOTER COMPONENT */
+
+.footer{
+    width: 100%;
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 40px 0;
+}
+.footer h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--second-color);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.footer h3::after{
+    content:"";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: var(--second-color);
+    align-items: left;
+    margin-bottom: 21px;
+}
+
+.footer-histoy{
+    padding-right: 40px;
+}
+.footer-contact{
+    padding-right: 40px;
+}
+.footer-contact ul li{
+    width: 230px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 5px 0;
+}
+.footer-social ul li{
+    display: inline-block;
+    padding-right:20px;
+}
+
+.copy{
+    width: 100%;
+    background: var(--second-color);
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+.intro-interna {
+    width: 100%;
+    height: 400px;
+    background: url("/img/bg-interna.svg") no-repeat  bottom;
+    background-size: cover;
+    text-align: center;
+}
+.intro-interna .container h1{
+    margin-top: 130px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+.intro-interna .container h1::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 6px;
+    background: var(--text-color);
+    margin: 3px auto;
+}
+.intro-interna .container .quote{
+    display: flex;
+    align-items: center;
+}
+.container .quote p.quote-text-interno{
+    width: 503px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--text-color)f;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+/*-orçamento */
+.orcamento{
+    background:var(--primary-color);
+    padding: 60px 0;
+}
+
+
+.orcamento .container h2.sub-title,
+.orcamento .container h3{
+    color:var(--second-color)
+}
+.orcamento .container h2.sub-title::after{
+    background: var(--second-color)
+}
+.orcamento .container .orcamento-form textarea,
+.orcamento .container .orcamento-form input{
+    background: transparent ;
+    border: 2px solid var(--second-color);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+.orcamento .container .orcamento-form textarea{
+    height: 120px;
+    min-height: 50px;
+    width: 300px;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+.orcamento .container .orcamento-form input{
+    width: 300px;
+    height: 40px;
+    color: var(--text-color);
+
+}
+.orcamento .container .orcamento-form .btn-form{
+    margin-top: 10px;
+    width: 300px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.orcamento input,
+.orcamento textarea,
+.orcamento button{
+    outline: none;
+
+    
+}
+.orcamento label,
+.orcamento span,
+.orcamento textarea{
+    display: block;
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.orcamento-dados h3{
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.orcamento .container .orcamento-dados span:nth-child(3){
+    margin-bottom: 50px;
+}
+.orcamento ul li{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 30px;
+    width: 220px;
+    padding: 5px;
+}
+.orcamento ul li:nth-child(odd){
+    background-color: #2b2b2b;
+}

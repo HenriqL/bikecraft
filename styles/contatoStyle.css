@@ -1,0 +1,20 @@
+:root{
+    --primary-color:#07070D;
+    --second-color:#EEAB3A;
+    --text-color:#fff;
+}
+span:nth-child(6){
+    margin-bottom: 50px;
+}
+.contato-social ul li.contato-media{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    display: inline-block;
+    background: transparent;
+    padding: 0px;
+}
+
+.map{
+    margin-top: 50px;
+}
